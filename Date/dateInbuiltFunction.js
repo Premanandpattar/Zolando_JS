@@ -6,3 +6,4 @@ console.log(d.toLocaleDateString());
 console.log(d.toDateString());
 
 console.log(d.getDate);
+console.log(d.getDay());

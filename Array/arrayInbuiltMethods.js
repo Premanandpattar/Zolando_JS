@@ -28,10 +28,10 @@ var array1 = [1, 56, 56, 6]
 // console.log(array);
 
 // array.splice(start index, delete count, new element)
-// console.log(array);
-// // console.log(array.splice(0,2,50));
-// console.log(array.splice(1,2,50));
-// console.log(array);
+console.log(array);
+console.log(array.splice());
+console.log(array.splice(1,2,50));
+console.log(array);
 
 // array.slice()
 // console.log(array);
