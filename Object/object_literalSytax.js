@@ -4,12 +4,14 @@ var moto={
     colour:"black",
     configartion:{os:"anroid",version:10},
     finalPrice:()=>{
-        return moto.cost*0.80}
+        return moto.cost*0.80},
+    1:"prem"
+
 }
 
 // console.log(moto);
-console.log(moto.configartion.os);
-moto.networkSupport=["5G","4G","3G","2G"];
+// console.log(moto.configartion.os);
+// moto.networkSupport=["5G","4G","3G","2G"];
 // console.log(moto);
 // moto.finalPrice=()=>{
 //     return moto.cost*0.80}
@@ -19,13 +21,10 @@ moto.networkSupport=["5G","4G","3G","2G"];
 // moto.serise="11g"
 // console.log(moto);
 // console.log(delete moto.serise);
-// console.log(moto);
+console.log(moto[1]);
 
-console.log(moto.colour);
+// console.log(moto.colour);
 
 //printing full object inside the one object
-console.log(moto["configartion"]);
-console.log(moto.networkSupport[0]);
-
-
-
+// console.log(moto["configartion"]);
+// console.log(moto.networkSupport[0]);

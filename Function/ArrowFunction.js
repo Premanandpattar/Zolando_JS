@@ -15,7 +15,9 @@
 //argument array
 function multiply(a,b){
 console.log(a*b);
-console.log(arguments[2]);
+console.log(arguments);
 }
 multiply(1,2,3,4,5)
 //out put
+
+console.log(a);

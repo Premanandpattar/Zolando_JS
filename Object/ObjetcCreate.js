@@ -11,7 +11,7 @@ var moto={
 }
 
 var nokia = Object.create(moto)
-// console.log(nokia);
+console.log(nokia);
 nokia.cost=15000
 nokia.screenSize="6 inches"
 nokia.colour="white"
@@ -21,7 +21,7 @@ nokia.finalPrice=()=>{return nokia.cost*0.80}
 // console.log(moto)
 // console.log(nokia);
 // console.log(moto.finalPrice());
-console.log(moto.productDetails());
+// console.log(moto);
 // console.log(nokia.cost);
 // console.log(moto.productDetails());
 // console.log(nokia.productDetails());
